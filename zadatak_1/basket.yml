@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Job
+metadata:
+  name: basket
+  namespace: zadatak_1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      zadatak: jedan
+  template:
+    metadata:
+      labels:
+        zadatak: 
+    spec:
+      containers:
+      - name: zadatak_1
+        image: basket:1.0
