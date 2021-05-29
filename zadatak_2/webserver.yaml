@@ -14,5 +14,5 @@ spec:
         zadatak: 
     spec:
       containers:
-      - name: zadatak_2
+      - name: sara_konstantinovic_4118s
         image: webserver:1.0
